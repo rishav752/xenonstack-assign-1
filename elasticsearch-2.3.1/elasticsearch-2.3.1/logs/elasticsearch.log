@@ -1,0 +1,39 @@
+[2016-04-17 15:32:38,195][INFO ][node                     ] [Kiber the Cruel] version[2.3.1], pid[17532], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 15:32:38,195][INFO ][node                     ] [Kiber the Cruel] initializing ...
+[2016-04-17 15:32:39,882][INFO ][plugins                  ] [Kiber the Cruel] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-17 15:32:40,038][INFO ][env                      ] [Kiber the Cruel] using [1] data paths, mounts [[Windows (C:)]], net usable_space [355.8gb], net total_space [453.5gb], spins? [unknown], types [NTFS]
+[2016-04-17 15:32:40,038][INFO ][env                      ] [Kiber the Cruel] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-17 15:32:46,892][INFO ][node                     ] [Kiber the Cruel] initialized
+[2016-04-17 15:32:46,892][INFO ][node                     ] [Kiber the Cruel] starting ...
+[2016-04-17 15:32:48,299][INFO ][transport                ] [Kiber the Cruel] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-17 15:32:48,299][INFO ][discovery                ] [Kiber the Cruel] elasticsearch/oV6Q5QUtTsuRL7cNvM81MQ
+[2016-04-17 15:32:52,408][INFO ][cluster.service          ] [Kiber the Cruel] new_master {Kiber the Cruel}{oV6Q5QUtTsuRL7cNvM81MQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 15:32:52,533][INFO ][gateway                  ] [Kiber the Cruel] recovered [0] indices into cluster_state
+[2016-04-17 15:32:53,600][INFO ][http                     ] [Kiber the Cruel] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-17 15:32:53,600][INFO ][node                     ] [Kiber the Cruel] started
+[2016-04-17 15:57:25,223][INFO ][cluster.metadata         ] [Kiber the Cruel] [topbeat-2016.04.17] creating index, cause [auto(bulk api)], templates [topbeat], shards [5]/[1], mappings [_default_, process, system]
+[2016-04-17 15:57:27,273][INFO ][cluster.routing.allocation] [Kiber the Cruel] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[topbeat-2016.04.17][4]] ...]).
+[2016-04-17 15:57:27,390][INFO ][cluster.metadata         ] [Kiber the Cruel] [topbeat-2016.04.17] update_mapping [process]
+[2016-04-17 15:57:27,407][INFO ][cluster.metadata         ] [Kiber the Cruel] [topbeat-2016.04.17] update_mapping [system]
+[2016-04-17 15:57:29,482][INFO ][cluster.metadata         ] [Kiber the Cruel] [topbeat-2016.04.17] create_mapping [filesystem]
+[2016-04-17 16:36:22,180][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-17 16:36:22,428][INFO ][node                     ] [Kiber the Cruel] stopping ...
+[2016-04-17 16:39:41,314][INFO ][node                     ] [Pathway] version[2.3.1], pid[10088], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-17 16:39:41,315][INFO ][node                     ] [Pathway] initializing ...
+[2016-04-17 16:39:42,050][INFO ][plugins                  ] [Pathway] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-17 16:39:42,081][INFO ][env                      ] [Pathway] using [1] data paths, mounts [[Windows (C:)]], net usable_space [355.5gb], net total_space [453.5gb], spins? [unknown], types [NTFS]
+[2016-04-17 16:39:42,081][INFO ][env                      ] [Pathway] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-17 16:39:49,516][INFO ][node                     ] [Pathway] initialized
+[2016-04-17 16:39:49,517][INFO ][node                     ] [Pathway] starting ...
+[2016-04-17 16:39:51,871][INFO ][transport                ] [Pathway] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-17 16:39:51,914][INFO ][discovery                ] [Pathway] elasticsearch/-Zs_0iX9Qc6OQvqIuenlMg
+[2016-04-17 16:39:56,123][INFO ][cluster.service          ] [Pathway] new_master {Pathway}{-Zs_0iX9Qc6OQvqIuenlMg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-17 16:39:56,372][INFO ][gateway                  ] [Pathway] recovered [1] indices into cluster_state
+[2016-04-17 16:39:57,183][INFO ][http                     ] [Pathway] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-17 16:39:57,183][INFO ][node                     ] [Pathway] started
+[2016-04-17 16:40:05,818][INFO ][cluster.routing.allocation] [Pathway] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[topbeat-2016.04.17][4], [topbeat-2016.04.17][2]] ...]).
+[2016-04-17 16:41:36,663][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-17 16:41:36,664][INFO ][node                     ] [Pathway] stopping ...
+[2016-04-17 16:41:39,423][INFO ][node                     ] [Pathway] stopped
+[2016-04-17 16:41:39,424][INFO ][node                     ] [Pathway] closing ...
+[2016-04-17 16:41:39,443][INFO ][node                     ] [Pathway] closed

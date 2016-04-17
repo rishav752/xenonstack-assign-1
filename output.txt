@@ -1,0 +1,375 @@
+{
+  "took" : 133,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 2,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 11385,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "system",
+      "_id" : "AVQjw6FkWz_IxJdwc1jR",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T10:28:23.868Z",
+        "beat" : {
+          "hostname" : "KshitizPC",
+          "name" : "KshitizPC"
+        },
+        "count" : 1,
+        "cpu" : {
+          "user" : 184676484,
+          "user_p" : 0.0711,
+          "nice" : 0,
+          "system" : 59086015,
+          "system_p" : 0.0883,
+          "idle" : 2033115343,
+          "iowait" : 0,
+          "irq" : 0,
+          "softirq" : 0,
+          "steal" : 0
+        },
+        "load" : {
+          "load1" : 0,
+          "load5" : 0,
+          "load15" : 0
+        },
+        "mem" : {
+          "total" : 4053946368,
+          "used" : 2890985472,
+          "free" : 1162960896,
+          "used_p" : 0.71,
+          "actual_used" : 899911680,
+          "actual_free" : 1247440896,
+          "actual_used_p" : 0.22
+        },
+        "swap" : {
+          "total" : 0,
+          "used" : 0,
+          "free" : 0,
+          "used_p" : 0
+        },
+        "type" : "system"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjw6FkWz_IxJdwc1jW",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T10:28:23.978Z",
+        "beat" : {
+          "hostname" : "KshitizPC",
+          "name" : "KshitizPC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\Windows\\system32\\lsass.exe",
+          "cpu" : {
+            "user" : 83984,
+            "user_p" : 0.0125,
+            "system" : 104281,
+            "total" : 188265,
+            "start_time" : "Aug19"
+          },
+          "mem" : {
+            "size" : 7770112,
+            "rss" : 10342400,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "lsass.exe",
+          "pid" : 708,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjw6SYWz_IxJdwc1jr",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T10:28:24.342Z",
+        "beat" : {
+          "hostname" : "KshitizPC",
+          "name" : "KshitizPC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\CyberLink\\PowerDV
+          "cpu" : {
+            "user" : 15,
+            "user_p" : 0,
+            "system" : 78,
+            "total" : 93,
+            "start_time" : "Aug19"
+          },
+          "mem" : {
+            "size" : 1138688,
+            "rss" : 1601536,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "CLMSMonitorServicePDVD12.exe",
+          "pid" : 1044,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjw6SYWz_IxJdwc1jt",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T10:28:24.375Z",
+        "beat" : {
+          "hostname" : "KshitizPC",
+          "name" : "KshitizPC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\ESET\\ESET Smart Securit
+          "cpu" : {
+            "user" : 3080281,
+            "user_p" : 0.014,
+            "system" : 935000,
+            "total" : 4015281,
+            "start_time" : "Aug19"
+          },
+          "mem" : {
+            "size" : 154390528,
+            "rss" : 144404480,
+            "rss_p" : 0.04,
+            "share" : 0
+          },
+          "name" : "ekrn.exe",
+          "pid" : 1752,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjw6SYWz_IxJdwc1jy",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T10:28:24.458Z",
+        "beat" : {
+          "hostname" : "KshitizPC",
+          "name" : "KshitizPC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\NVIDIA Corporation
+          "cpu" : {
+            "user" : 1109,
+            "user_p" : 0,
+            "system" : 1640,
+            "total" : 2749,
+            "start_time" : "Aug19"
+          },
+          "mem" : {
+            "size" : 2297856,
+            "rss" : 3182592,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "NvNetworkService.exe",
+          "pid" : 2260,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjw6SYWz_IxJdwc1j0",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T10:28:24.491Z",
+        "beat" : {
+          "hostname" : "KshitizPC",
+          "name" : "KshitizPC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\Windows\\system32\\svchost.exe -k imgsvc"
+          "cpu" : {
+            "user" : 2359,
+            "user_p" : 0,
+            "system" : 6031,
+            "total" : 8390,
+            "start_time" : "Aug19"
+          },
+          "mem" : {
+            "size" : 3670016,
+            "rss" : 3751936,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "svchost.exe",
+          "pid" : 2612,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\LOCAL SERVICE"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjw6SYWz_IxJdwc1j2",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T10:28:24.523Z",
+        "beat" : {
+          "hostname" : "KshitizPC",
+          "name" : "KshitizPC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"ConnectifyD.exe\"",
+          "cpu" : {
+            "user" : 742781,
+            "user_p" : 0.0295,
+            "system" : 714359,
+            "total" : 1457140,
+            "start_time" : "Aug19"
+          },
+          "mem" : {
+            "size" : 580280320,
+            "rss" : 165134336,
+            "rss_p" : 0.04,
+            "share" : 0
+          },
+          "name" : "Connectifyd.exe",
+          "pid" : 2824,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjw6SYWz_IxJdwc1j9",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T10:28:24.639Z",
+        "beat" : {
+          "hostname" : "KshitizPC",
+          "name" : "KshitizPC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\Windows\\system32\\wbem\\wmiprvse.exe",
+          "cpu" : {
+            "user" : 19406,
+            "user_p" : 0,
+            "system" : 36687,
+            "total" : 56093,
+            "start_time" : "Aug19"
+          },
+          "mem" : {
+            "size" : 8032256,
+            "rss" : 10588160,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "WmiPrvSE.exe",
+          "pid" : 3312,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\NETWORK SERVICE"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjw6SYWz_IxJdwc1j-",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T10:28:24.655Z",
+        "beat" : {
+          "hostname" : "KshitizPC",
+          "name" : "KshitizPC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\Windows\\system32\\SearchIndexer.exe /Emb
+          "cpu" : {
+            "user" : 97875,
+            "user_p" : 0.0016,
+            "system" : 62609,
+            "total" : 160484,
+            "start_time" : "Aug19"
+          },
+          "mem" : {
+            "size" : 36872192,
+            "rss" : 24211456,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "SearchIndexer.exe",
+          "pid" : 3672,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjw6SYWz_IxJdwc1kB",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T10:28:24.706Z",
+        "beat" : {
+          "hostname" : "KshitizPC",
+          "name" : "KshitizPC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\Windows\\system32\\wbem\\wmiprvse.exe",
+          "cpu" : {
+            "user" : 3859,
+            "user_p" : 0,
+            "system" : 3812,
+            "total" : 7671,
+            "start_time" : "Aug19"
+          },
+          "mem" : {
+            "size" : 4935680,
+            "rss" : 6062080,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "WmiPrvSE.exe",
+          "pid" : 4684,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    } ]
+  }
+}
